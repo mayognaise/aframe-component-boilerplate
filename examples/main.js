@@ -1,2 +1,2 @@
-require('aframe');
-require('../index.js');
+import 'aframe'
+import '../index'

@@ -1,5 +1,5 @@
 if (typeof AFRAME === 'undefined') {
-  throw 'Component attempted to register before AFRAME was available.';
+  throw 'Component attempted to register before AFRAME was available.'
 }
 
 /**
@@ -11,34 +11,34 @@ AFRAME.registerComponent('example', {
   /**
    * Called once when component is attached. Generally for initial setup.
    */
-  init: function () { },
+  init () { },
 
   /**
    * Called when component is attached and when component data changes.
    * Generally modifies the entity based on the data.
    */
-  update: function (oldData) { },
+  update (oldData) { },
 
   /**
    * Called when a component is removed (e.g., via removeAttribute).
    * Generally undoes all modifications to the entity.
    */
-  remove: function () { },
+  remove () { },
 
   /**
    * Called on each scene tick.
    */
-  // tick: function (t) { },
+  // tick (t) { },
 
   /**
    * Called when entity pauses.
    * Use to stop or remove any dynamic or background behavior such as events.
    */
-  pause: function () { },
+  pause () { },
 
   /**
    * Called when entity resumes.
    * Use to continue or add any dynamic or background behavior such as events.
    */
-  play: function () { },
-});
+  play () { },
+})

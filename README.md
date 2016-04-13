@@ -62,6 +62,6 @@ npm install aframe-example-component
 Then register and use.
 
 ```js
-require('aframe');
-require('aframe-example-component');
+import 'aframe'
+import 'aframe-example-component'
 ```
